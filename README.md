@@ -18,6 +18,8 @@ However, implementing the Dancing Links algorithm on my own proved to be quite c
 
 Eventually, I discovered a more accessible algorithm, which I mentioned at the start, from a LeetCode user named "Ov8CfeJ3Su." Their algorithm is much easier to understand and implement. You can find it [here](https://leetcode.com/problems/sudoku-solver/solutions/5757508/recursive-backtracking-beats-99/). The core logic of my program is based on their work, while the rest of the implementation was done by me.
 
+I have also attached a folder called **_OG codes_** which contains my original python file that has my 2 initial algorithms that I mentioned above.
+
 ## Intuition
 
 The main idea is to emulate the manual sudoku solving algorithm of keeping track of candidate numbers for each cell, penciling in cells with only one candidate, and then updating the candidates for cells in the same row, column, and block. If we get to a point where we can no longer eliminate candidates with this approach, we guess a value for a single cell and repeat the process, backtracking if we make a wrong guess.
@@ -46,9 +48,11 @@ Number keys (1-9): Input a number in the selected cell.
 Python 3+
 
 ## Future Improvements
-Showing hints when a player is stuck
-Timer for tracking how long it takes to solve a puzzle.
-A leaderboard for tracking top scores.
+- Showing hints when a player is stuck
+- Timer for tracking how long it takes to solve a puzzle.
+- A leaderboard for tracking top scores.
+- Show in real-time how the algorithm changes each cell using backtracking when solving
+- Note: To edit the code, just download the 2 files **_main.py_** and **_sudoku_penciling.py_**
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
