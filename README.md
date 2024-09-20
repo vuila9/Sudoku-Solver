@@ -48,7 +48,7 @@ Python 3+
 - Timer for tracking how long it takes to solve a puzzle.
 - A leaderboard for tracking top scores.
 - Show in real-time how the algorithm changes each cell using backtracking when solving
-- Dancing Links implementation + IRL sudoku advanced techniques such as finding _Hidden Singles_, _Hidden Pairs_, _Swordfish_, _X-wing_, _Y-wing_ to maxmiize solving runtime
+- Dancing Links implementation + IRL sudoku advanced techniques such as finding _Hidden Singles_, _Hidden Pairs_, _Swordfish_, _X-wing_, _Y-wing_, etc. to maxmiize solving runtime
 - Note: To edit the code, just download the 2 files **_main.py_** and **_sudoku_penciling.py_**
 
 ## License
