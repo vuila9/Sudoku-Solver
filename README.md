@@ -18,7 +18,7 @@ However, implementing the Dancing Links algorithm on my own proved to be quite c
 
 Eventually, I discovered a more accessible algorithm, which I mentioned at the start, from a LeetCode user named "Ov8CfeJ3Su." Their algorithm is much easier to understand and implement. You can find it [here](https://leetcode.com/problems/sudoku-solver/solutions/5757508/recursive-backtracking-beats-99/). The core logic of my program is based on their work, while the rest of the implementation was done by me.
 
-I have also attached a folder called **_OG codes_** which contains my original python file that has my 2 initial algorithms that I mentioned above.
+I have also attached a folder called [OG codes](https://github.com/vuila9/Sudoku-Solver/tree/main/OG%20codes) which contains my original python file that has my 2 initial algorithms that I mentioned above.
 
 ## Intuition
 
