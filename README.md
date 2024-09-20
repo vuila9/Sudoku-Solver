@@ -40,18 +40,15 @@ Open the game, and you’ll be presented with a new Sudoku board.
 Select a cell by clicking on it, and input a number (1-9).
 Use the options to generate new puzzles, check your current solution
 
-## Controls
-Click on a cell: Select the cell you want to edit.
-Number keys (1-9): Input a number in the selected cell.
-
 ## Requirements
 Python 3+
 
 ## Future Improvements
-- Showing hints when a player is stuck
+- Showing hints when the player is stuck
 - Timer for tracking how long it takes to solve a puzzle.
 - A leaderboard for tracking top scores.
 - Show in real-time how the algorithm changes each cell using backtracking when solving
+- Dancing Links implementation + IRL sudoku advanced techniques such as finding _Hidden Singles_, _Hidden Pairs_, _Swordfish_, _X-wing_, _Y-wing_ to maxmiize solving runtime
 - Note: To edit the code, just download the 2 files **_main.py_** and **_sudoku_penciling.py_**
 
 ## License
