@@ -1,5 +1,8 @@
 # Sudoku Game
 
+## JS/HTML/CSS version
+Just port the entire project from Python to JavaScript, visit [here](https://vuila9.github.io/projects/Sudoku_JS/Sudoku_JS.html) to see and mess with it yourself.
+
 ## Overview
 
 This is a Python-based Sudoku game that is implemented entirely on TKinter (not pygame) that allows users to solve puzzles, generate new Sudoku boards, and even check the validity of their solutions. The game is interactive, with a graphical user interface (GUI) for ease of use, making it accessible to both beginners and Sudoku enthusiasts.
